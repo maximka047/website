@@ -1,0 +1,29 @@
+.imag{
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    display: flex;
+    justify-content: center;
+}
+
+.imag-el{
+    height:100%;
+    width:60%;
+}
+
+.base{
+    text-align:center;
+}
+
+.navbar{
+    display: flex;
+    align-items: baseline;
+    padding-top: -1.5%;
+}
+
+.navbar b{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar-brand{
+    text-align: center!important;
+}

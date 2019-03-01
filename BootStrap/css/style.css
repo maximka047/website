@@ -1,0 +1,84 @@
+.menu-h{
+    height: 70vh;
+    width:100vh;
+    background: url(../img/programming.png);
+    color: white;
+}
+
+.h{
+    text-align: center;
+    padding-top: 5%
+}
+
+.navbar{
+    display: flex;
+    align-items: baseline;
+    margin-top: -1.5%;
+}
+
+.navbar b{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar-brand{
+    text-align: center!important;
+}
+
+.cell{
+    text-align: center;
+    padding-top: 25px;
+}
+
+#num small{
+    color:rgb(253, 135, 25)
+}
+
+.card{
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+
+.lang :hover{
+    cursor: pointer;
+}
+
+.collapse{
+    margin-right:5%;
+}
+
+.langs{
+    display:flex;
+    text-align: center;
+    padding-left: 4%
+}
+
+.lang-item{
+    height: 80%;
+    width: 110%; 
+}
+
+.lang-item1{
+   padding-left: 10%;
+    height:80%;
+    width:480px;
+}
+
+.lang-item2{
+    padding-left: 10%;
+    height: 80%;
+    width: 300px;
+}
+
+.tc{
+    padding-left: 10%
+}
+
+.navbar p{
+    color: whitesmoke
+}
+
+.lang{
+    outline-width: 1px;
+}
