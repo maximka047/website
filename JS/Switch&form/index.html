@@ -41,7 +41,7 @@
             <div class="btn">
                 <form action="form.php">
                     <input type="number" placeholder="Count">
-                    <input type="submit" value="Add to cart">
+                    <input type="submit" class="submit" value="Add to cart">
                 </form>
             </div>
             <div class="ifa">
@@ -95,12 +95,27 @@
         </div>
     </div>
 </div>
-<!-- <div id="modal_form"> 
-      <span id="modal_close">X</span> 
+<div id="modal_form"> 
+      <span id="modal_close">&times;</span> 
       <form>
-          
+          <label for="name">Введіть своє ім'я</label><br>
+          <input type="text" id="name" class="form-control"placeholder="your name">
+          <label for="email">Введіть своє ім'я</label><br>
+          <input type="text" id="email" class="form-control"placeholder="your email"><br>
+          <label for="pay">Спосіб оплат</label><br>
+          <label for="on">Онлайн</label>
+          <input type="radio" id="off" name="pay" value="offline">
+          <label type="off">При отриманні</label>
+          <input type="radio" id="on" name="pay" value="online">
+          <label for="sub">Підтверджую</label>
+          <input type="checkbox" id="sub">
+    
+          <input type="button" value="Підтвердити замовлення">
+
       </form>
 </div>
-<div id="overlay"></div> -->
+<div id="overlay"></div>
+<script src="switch.js"></script>
+<script src="form.js"></script>
 </body>
 </html>
